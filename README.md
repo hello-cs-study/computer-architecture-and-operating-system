@@ -40,7 +40,8 @@
 
 |           주차           | 발표자 | 발표자료 |
 | :----------------------: | :----: | :------: |
-| 1주차(25.01.07~25.01.14) | 발표자 | 발표자료 |
+| 1주차(25.01.07~25.01.14) | 이강욱 | [1주차 발표자료](https://github.com/hello-cs-study/computer-architecture-and-operating-system/blob/main/iamkanguk97/presentation/week_1.pdf) |
+| 2주차(25.01.14~25.01.21) | 발표자 | 2주차 발표자료 |
 
 <br/>
 
