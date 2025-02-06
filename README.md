@@ -78,6 +78,6 @@
 
 ### 컴퓨터 구조 (Computer Architecture)
 
-- 하드 디스크와 플래시 메모리
-- RAID (Redundant Array of Inexpensive Disks)
-- 캐시 메모리 (Cache Memory)
+- [하드 디스크와 플래시 메모리](https://github.com/hello-cs-study/computer-architecture-and-operating-system/blob/main/iamkanguk97/presentation/week2/%ED%95%98%EB%93%9C%EB%94%94%EC%8A%A4%ED%81%AC%EC%99%80%20%ED%94%8C%EB%9E%98%EC%8B%9C%20%EB%A9%94%EB%AA%A8%EB%A6%AC.md)
+- [RAID (Redundant Array of Inexpensive Disks)](https://github.com/hello-cs-study/computer-architecture-and-operating-system/blob/main/iamkanguk97/presentation/week2/RAID.md)
+- [캐시 메모리 (Cache Memory)](https://github.com/hello-cs-study/computer-architecture-and-operating-system/blob/main/iamkanguk97/presentation/week2/%EC%BA%90%EC%8B%9C%20%EB%A9%94%EB%AA%A8%EB%A6%AC.md)
