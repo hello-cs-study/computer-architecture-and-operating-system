@@ -41,7 +41,8 @@
 |           주차           | 발표자 |                                                                   발표자료                                                                   |
 | :----------------------: | :----: | :------------------------------------------------------------------------------------------------------------------------------------------: |
 | 1주차(25.01.07~25.01.14) | 이강욱 | [1주차 발표자료](https://github.com/hello-cs-study/computer-architecture-and-operating-system/blob/main/iamkanguk97/presentation/week_1.pdf) |
-| 2주차(25.01.14~25.01.21) | 발표자 |                                                                2주차 발표자료                                                                |
+| 2주차(25.01.14~25.01.21) | 정세령 |  [2주차 발표자료](https://github.com/hello-cs-study/computer-architecture-and-operating-system/blob/main/microsaurs/presentation/Week2.pdf)  |
+| 1주차(25.01.28~25.02.04) | 이강욱 |   [3주차 발표자료](https://github.com/hello-cs-study/computer-architecture-and-operating-system/tree/main/iamkanguk97/presentation/week3)    |
 
 <br/>
 
@@ -74,10 +75,37 @@
 
 ---
 
-## 정리 내용
+<br/>
+
+## 📚 핵심 내용
 
 ### 컴퓨터 구조 (Computer Architecture)
 
 - [하드 디스크와 플래시 메모리](https://github.com/hello-cs-study/computer-architecture-and-operating-system/blob/main/iamkanguk97/presentation/week2/%ED%95%98%EB%93%9C%EB%94%94%EC%8A%A4%ED%81%AC%EC%99%80%20%ED%94%8C%EB%9E%98%EC%8B%9C%20%EB%A9%94%EB%AA%A8%EB%A6%AC.md)
 - [RAID (Redundant Array of Inexpensive Disks)](https://github.com/hello-cs-study/computer-architecture-and-operating-system/blob/main/iamkanguk97/presentation/week2/RAID.md)
 - [캐시 메모리 (Cache Memory)](https://github.com/hello-cs-study/computer-architecture-and-operating-system/blob/main/iamkanguk97/presentation/week2/%EC%BA%90%EC%8B%9C%20%EB%A9%94%EB%AA%A8%EB%A6%AC.md)
+
+### 운영체제 (Operating System)
+
+- 운영체제와 커널 (Operating System and Kernel) (TBU - 이강욱)
+- 시스템 호출(System Call) (TBU - 이강욱)
+- 인터럽트(Interrupt) (TBU - 이강욱)
+
+<br/>
+
+## 🤔 예상 면접 질문
+
+> CS 예상 면접 질문을 생각날 때마다 정리합니다.
+
+### 운영체제 (Operating System)
+
+<details>
+<summary><b>System Call에 대해서 설명해주세요.</b></summary>
+<div markdown="1">
+
+> 사용자 모드(User Mode)로 실행된 응용 프로그램이 자원에 접근하는 운영체제의 서비스를 제공받기 위해서는 운영체제에 요청을 보내서 커널 모드(Kernel Mode)로 전환이 되어야 한다.<br/>
+> User Mode에서 Kernel Mode로 직접 접근이 되지 않기 때문에 운영체제의 서비스를 제공받기 위한 요청을 `시스템 호출(System Call)` 이라고 한다.<br/>
+> 예를 들어, 새로운 자식 프로세스를 생성하는 `fork()` 명령어, 또는 open, close와 같은 파일 시스템 관련 명령어 들도 모두 System Call에 해당한다.
+
+</div>
+</details>
