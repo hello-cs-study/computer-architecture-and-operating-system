@@ -88,10 +88,10 @@
 
 ### 운영체제 (Operating System)
 
--   운영체제와 커널 (Operating System and Kernel) (TBU - 이강욱)
--   시스템 호출(System Call) (TBU - 이강욱)
--   인터럽트(Interrupt) (TBU - 이강욱)
--   PCB(Process-Control Block)과 문맥 교환(Context-Switching) (TBU - 이강욱)
+-   [운영체제와 이중모드](asdf)
+-   [프로세스와 스레드](asdf)
+-   [PCB(Process-Control Block)과 문맥 교환(Context-Switching)](asdf)
+-   [CPU 스케줄링](asdf)
 
 <br/>
 
@@ -100,6 +100,19 @@
 > CS 예상 면접 질문을 생각날 때마다 정리합니다.
 
 ### 운영체제 (Operating System)
+
+<details>
+<summary><b>운영체제와 커널에 대해서 설명해주세요.</b></summary>
+<div markdown="1">
+
+<br/>
+
+TBU
+
+</div>
+</details>
+
+<br/>
 
 <details>
 <summary><b>System Call에 대해서 설명해주세요.</b></summary>
@@ -112,6 +125,19 @@
 User Mode에서 Kernel Mode로 직접 접근이 되지 않기 때문에 운영체제의 서비스를 제공받기 위한 요청을 `시스템 호출(System Call)` 이라고 한다.<br/>
 
 예를 들어, 새로운 자식 프로세스를 생성하는 `fork()` 명령어, 또는 open, close와 같은 파일 시스템 관련 명령어 들도 모두 System Call에 해당한다.
+
+</div>
+</details>
+
+<br/>
+
+<details>
+<summary><b>Context Switching에 대해서 설명해주시고, 필요한 이유에 대해서 설명해주세요.</b></summary>
+<div markdown="1">
+
+<br/>
+
+TBU
 
 </div>
 </details>
